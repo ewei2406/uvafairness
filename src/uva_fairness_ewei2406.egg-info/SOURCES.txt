@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/uva_fairness/__init__.py
+src/uva_fairness/sample.py
+src/uva_fairness_ewei2406.egg-info/PKG-INFO
+src/uva_fairness_ewei2406.egg-info/SOURCES.txt
+src/uva_fairness_ewei2406.egg-info/dependency_links.txt
+src/uva_fairness_ewei2406.egg-info/top_level.txt
