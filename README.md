@@ -25,3 +25,5 @@ Requires ```pytest >= 6.2.5```
 ```
 pytest uva_fairness
 ```
+
+![137540723-827a7f2e-7cfb-48a2-8955-bf3c69b7ba91](https://user-images.githubusercontent.com/34495421/138992587-74391783-6643-4201-a0c3-8581e3ec55ce.png)
