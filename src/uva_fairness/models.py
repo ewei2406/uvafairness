@@ -2,6 +2,10 @@ import torch
 from torch import nn
 
 class model(nn.Module):
+    """
+    Simple model with 3 layers; hidden layer with 64 neurons. 
+    Specify size of input and output tensors.
+    """
     def __init__(self, input_dim, output_dim):
         super(model, self).__init__()
         self.flatten = nn.Flatten()
