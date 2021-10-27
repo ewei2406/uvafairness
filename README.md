@@ -14,7 +14,7 @@ from uva_fairness import models
 import torch
 
 simple_model = models.BaseGCN(input_dim=64, output_dim=10)
-X = torch.rand(1, 28, 28, device=device)
+X = torch.rand(1, 8, 8, device=device)
 logits = simple_model(X)
 ```
 
