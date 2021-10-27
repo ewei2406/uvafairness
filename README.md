@@ -12,3 +12,9 @@ Base GCN (using Torch)
 ```
 from uva_fairness import BaseGCN
 ```
+
+## Testing
+Requires ```pytest > 6.2.5```
+```
+pytest uva_fairness
+```
