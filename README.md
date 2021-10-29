@@ -10,7 +10,12 @@ pip install -i https://test.pypi.org/simple/ uva-fairness-ewei2406==0.0.1
 ## Usage
 Base GCN (using Torch)
 ```
-from uva_fairness import BaseGCN
+from uva_fairness import models
+import torch
+
+simple_model = models.BaseGCN(input_dim=64, output_dim=10)
+X = torch.rand(1, 8, 8, device=device)
+logits = simple_model(X)
 ```
 
 ## Development
